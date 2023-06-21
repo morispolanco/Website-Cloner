@@ -12,7 +12,7 @@ try:
     site_name = sys.argv[1]
     project_name = sys.argv[2]
 except IndexError:
-    st.write("Usage:\npython app.py www.example.com folder_name")
+    st.write("Usage:\npython app.py https://www.chatpdf.com/ chapdf")
     sys.exit(1)
 
 project_path = "../" + project_name
